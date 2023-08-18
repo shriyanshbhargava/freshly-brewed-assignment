@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUser, faBookmark } from "@fortawesome/free-solid-svg-icons";
+import { faUser, faBookmark, faStar } from "@fortawesome/free-solid-svg-icons";
 import "./Home.css";
 import ProgressBar from "../Components/Progress Bar/ProgressBar";
 
@@ -27,7 +27,7 @@ const Home = () => {
               &nbsp; 1h 53m
             </span>
             <span className="course-details">
-              <FontAwesomeIcon icon={faUser} width={10} />
+              <FontAwesomeIcon icon={faStar} width={10} />
               &nbsp; 4.5/5
             </span>
             <button className="start-button">Start</button>
@@ -51,7 +51,7 @@ const Home = () => {
               &nbsp; 1h 53m
             </span>
             <span className="course-details">
-              <FontAwesomeIcon icon={faUser} width={10} />
+              <FontAwesomeIcon icon={faStar} width={10} />
               &nbsp; 4.5/5
             </span>
             <button className="start-button">Start</button>
@@ -75,7 +75,7 @@ const Home = () => {
               &nbsp; 1h 53m
             </span>
             <span className="course-details">
-              <FontAwesomeIcon icon={faUser} width={10} />
+              <FontAwesomeIcon icon={faStar} width={10} />
               &nbsp; 4.5/5
             </span>
             <button className="start-button">Start</button>
@@ -99,7 +99,7 @@ const Home = () => {
               &nbsp; 1h 53m
             </span>
             <span className="course-details">
-              <FontAwesomeIcon icon={faUser} width={10} />
+              <FontAwesomeIcon icon={faStar} width={10} />
               &nbsp; 4.5/5
             </span>
             <button className="start-button">Start</button>
@@ -143,7 +143,6 @@ const Home = () => {
       {/* ------------------------MY PROGRESS----------------------- */}
       <h2 className="head">My Progress</h2>
       <div className="home-containers">
-        
         <div className="progress-div">
           <img
             className="progress-image"
